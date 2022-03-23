@@ -1,0 +1,13 @@
+{{idioma}}
+<div class="container">
+    <div class="row">
+        <div *ngFor="let produto of productos; let i= index;" class="col-3 border">
+            <div (click)="mostrarProducto(produto[0])" [ngClass]='{first_row: i<4, middle_row: i>3 && i<8, last_row: i>7}'> 
+                <img  src="./assets/imaxes/{{produto[0].imaxe}}">
+                <p>
+                    <div class="titulo">{{produto[0].nome}}</div>
+                    <div class="precio">{{produto[0].prezo}} €</div>
+            </div>
+        </div>
+    </div>
+</div>

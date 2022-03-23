@@ -1,0 +1,74 @@
+[
+    {
+        "nome":"Anel trançado Cartier", 
+        "prezo":6500, 
+        "imaxe":"anilloCartier.png", 
+        "descricion":"Anel composto por três tranças, sendo estas em ouro amarelo, ouro branco e ouro rosa respectivamente. Peso líquido: 2,5g."
+    },
+    {
+        "nome":"Anel cruz Chrome Hearts", 
+        "prezo":850, 
+        "imaxe":"anilloCruz.png", 
+        "descricion":"Anel de prata em forma de cruz de Malta de Chrome Hearts. Peso líquido: 1,4g."
+    },
+    {
+        "nome":"Anel snake Cartier", 
+        "prezo":26700, 
+        "imaxe":"anilloSerpiente.png", 
+        "descricion":"Anel snake Cartier com entrelaçamento escamoso, feito de ouro rosa incrustado com diamantes lapidação brilhante e um rubi poligonal lapidação esmeralda imitando a cabeça da cobra."
+    },
+    {
+        "nome":"Broche Art Decó", 
+        "prezo":12600, 
+        "imaxe":"brocheDeco.png", 
+        "descricion":"Broche Art Déco com formato floral composto por platina, ouro branco, diamantes e uma esmeralda central. Peso líquido: 15,6g."
+    },
+    {
+        "nome":"Brincos de rubi", 
+        "prezo":58980, 
+        "imaxe":"pendientesColgantesRubi.png", 
+        "descricion":"Brincos estilo Barroco cada um composto por duas peças com um rubi oval central coberto com diamantes em talhe brilhante. Peso líquido: 7,8g."
+    },
+    {
+        "nome":"Brincos esmeralda colombiana", 
+        "prezo":59500, 
+        "imaxe":"pendientesDiamanteEsmeralda.png", 
+        "descricion":"Brincos da década de 1950, cada um composto por um diamante lapidação oval pesando 4g e uma esmeralda colombiana lapidação oval de 6,7g engastada com ferragens em ouro branco."
+    }, 
+    {
+        "nome":"Brincos emperalda africana", 
+        "prezo":33560, 
+        "imaxe":"pendientesEsmeraldaAfricana.png", 
+        "descricion":"Brincos cada um composto por um fio de diamante octogonal unido por hardware de ouro branco a uma esmeralda africana de formato oval. Peso líquido: 6,8g."
+    },
+    {
+        "nome":"Brincos zafiro", 
+        "prezo":62800, 
+        "imaxe":"pendientesZafiro.png", 
+        "descricion":"Brincos Art Déco cada um composto por duas peças ligadas por ouro branco. A peça de amarração contém uma safira redonda bordada por diamantes de 3,5g e a peça de suspensão uma safira de lapidação oval também bordada por diamantes, pesando 7,6g."
+    },
+    {
+        "nome":"Brincos esmeralda e ouro", 
+        "prezo":4690, 
+        "imaxe":"pendientesOroEsmeralda.png", 
+        "descricion":"Brincos florais renascentistas em design floral, cada um contendo uma esmeralda oval entalhada com zirconita em ferragens em ouro amarelo. Peso líquido: 4,3g."
+    }, 
+    {
+        "nome":"Brincos rubi Art Decó",  
+        "prezo":13500, 
+        "imaxe":"pendientesRubi.png", 
+        "descricion":"Brincos Art Déco em ouro branco com grande lapidação central rubi esmeralda bordeada de diamantes de máxima pureza. Peso líquido: 9,5g."
+    },
+    {
+        "nome":"Brincos de flores de zircônia", 
+        "prezo":1100, 
+        "imaxe":"pendientesOroZirconita.png", 
+        "descricion":"Brincos de 1995 emulando dois crisântemos, constituídos por zirconitas azuis, vermelhas e brancas sobre uma ferragem em ouro amarelo. Peso líquido: 14,5g."
+    }, 
+    {
+        "nome":"Pulseira Cartier", 
+        "prezo":45600, 
+        "imaxe":"brazaleteCartier.png", 
+        "descricion":"Pulseira Cartier feita de 7 bandas de ouro amarelo e incrustadas com diamantes em talhe brilhante. Peso líquido: 12,5g."
+    }   
+]

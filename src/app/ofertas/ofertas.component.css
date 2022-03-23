@@ -1,0 +1,21 @@
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.carousel {
+    height: 120px !important;
+}
+.carousel-item {
+    text-align: center;
+}
+.img106 {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.img100 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: rgb(71, 70, 70);
+}

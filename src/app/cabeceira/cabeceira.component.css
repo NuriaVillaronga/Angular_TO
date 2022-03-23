@@ -1,0 +1,38 @@
+.navbar {
+    background-color: black;
+}
+.navbar-brand {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Bebas Neue';
+    padding-left: 30px;
+}
+.btn-search {
+    background-color: rgb(71, 70, 70);
+    color: white;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+}
+.btn-search:hover {
+    background-color: rgb(105, 104, 104);
+}
+.form-select, input{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Inconsolata', monospace;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid rgba(102, 99, 99, 0.555) !important;
+}
+.form-select option {
+    color: white;
+    font-weight: bold;
+}
+.titular {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+}

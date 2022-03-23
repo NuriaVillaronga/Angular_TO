@@ -1,0 +1,28 @@
+.container {
+    margin-bottom: 20px;
+}
+.row div {
+    text-align: center;
+}
+.row div div {
+    cursor: pointer;
+}
+.middle_row {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.first_row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.last_row {
+    padding-top: 57px;
+    padding-bottom: 57px;
+}
+.titulo {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+.precio {
+    font-family: 'Inconsolata', monospace;
+}

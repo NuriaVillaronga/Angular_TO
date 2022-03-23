@@ -1,0 +1,15 @@
+<div class="container">
+    <div id="carouselOfertas" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div *ngFor="let producto of productosOferta; let i= index;" class="carousel-item" [ngClass]='{img106: producto[0].nome == "Pendientes flores zirconita" || producto[0].nome == "Pendientes rubí Art Decó", active:producto[0].nome == "Pendientes flores zirconita", img100: producto[0].nome == "Anel cruz Chrome Hearts"}'>
+                <img  src="./assets/imaxes/{{producto[0].imaxe}}">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselOfertas" data-bs-slide="prev"> 
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselOfertas" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  </div>

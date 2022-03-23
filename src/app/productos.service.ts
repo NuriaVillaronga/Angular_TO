@@ -1,0 +1,73 @@
+import { Injectable } from '@angular/core';
+import produtos from '../assets/produtos.json';
+import produtosPor from '../assets/produtosPor.json';
+
+@Injectable({
+    providedIn: 'root'
+})
+
+export class ProductosService {
+
+  idioma : string;
+  productos : Producto[][];
+  brand : string;
+  placeholder : string;
+  boton : string;
+
+  constructor() {
+      this.idioma = "gal";
+      this.brand = "XOIAS NURIA";
+      this.placeholder = "Qué desexas buscar?";
+      this.boton = "Buscar";
+      this.productos = [
+        [produtos[0]], [produtos[1]], [produtos[2]], [produtos[3]], [produtos[4]],  [produtos[5]],   
+        [produtos[6]], [produtos[7]], [produtos[8]], [produtos[9]], [produtos[10]], [produtos[11]]
+      ];
+  }
+
+  servizoIdioma(idiomaCambiado : string) {
+
+    this.idioma = idiomaCambiado;
+    
+    if(this.idioma == "gal") {
+        this.brand = "XOIAS NURIA";
+        this.placeholder = "Qué desexas buscar?";
+        this.boton = "Buscar";
+    }
+    if(this.idioma == "por") {
+        this.brand = "JÓIAS NURIA";
+        this.placeholder = "O que você quer procurar...";
+        this.boton = "Procurar";
+    }
+  }
+
+  obterProductos(idiomaCambiado : string) {
+    
+      this.idioma = idiomaCambiado;
+      
+      if(this.idioma == "gal") {
+          this.productos = [
+            [produtos[0]], [produtos[1]], [produtos[2]], [produtos[3]], [produtos[4]],  [produtos[5]],   
+            [produtos[6]], [produtos[7]], [produtos[8]], [produtos[9]], [produtos[10]], [produtos[11]]
+          ];
+      }
+      if(this.idioma == "por") {
+          this.productos = [
+            [produtosPor[0]], [produtosPor[1]], [produtosPor[2]], [produtosPor[3]], [produtosPor[4]],  [produtosPor[5]],   
+            [produtosPor[6]], [produtosPor[7]], [produtosPor[8]], [produtosPor[9]], [produtosPor[10]], [produtosPor[11]]
+          ];
+      }
+  }
+
+  obterListadoOfertas():Producto[][] {
+      return [[produtos[10]], [produtos[1]], [produtos[2]], [produtos[3]], [produtos[9]]]; 
+  }
+
+}
+
+export interface Producto {
+  nome: string;
+  prezo: number;
+  imaxe: string;
+  descricion: string;
+}

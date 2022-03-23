@@ -1,0 +1,75 @@
+[
+    {
+        "nome":"Anel trenzado Cartier", 
+        "prezo":6500, 
+        "imaxe":"anilloCartier.png", 
+        "descricion":"Anel constituido por tres trenzas, sendo estas respectivamente de ouro amarelo, ouro branco e ouro rosa. Peso neto: 2.5g."
+    },
+    {
+        "nome":"Anel cruz Chrome Hearts", 
+        "prezo":850, 
+        "imaxe":"anilloCruz.png", 
+        "descricion":"Anel de prata con forma de cruz de Malta de Chrome Hearts. Peso neto: 1.4g."
+    },
+    {
+        "nome":"Anel snake Cartier", 
+        "prezo":26700, 
+        "imaxe":"anilloSerpiente.png", 
+        "descricion":"Anel snake de Cartier con entrelazado escamado, composta por ouro rosa con incrustacións de diamantes talla brillante e un rubí poligonal talla esmeralda emulando a cabeza da serpiente."
+    },
+    {
+        "nome":"Broche Art Decó", 
+        "prezo":12600, 
+        "imaxe":"brocheDeco.png", 
+        "descricion":"Broche Art Decó con forma floral composto de platino, ouro branco, diamantes e unha esmeralda central. Peso neto: 15.6g.s"
+    },
+    {
+        "nome":"Pendientes colgantes de rubí", 
+        "prezo":58980, 
+        "imaxe":"pendientesColgantesRubi.png", 
+        "descricion":"Pendientes de estilo Barroco compostos cada un por duas pezas cun rubí ovalado central recubertos de diamantes talla brillante. Peso neto: 7.8g."
+    },
+    {
+        "nome":"Pendientes esmeralda colombiana", 
+        "prezo":59500, 
+        "imaxe":"pendientesDiamanteEsmeralda.png", 
+        "descricion":"Pendientes de 1950 compostos cada un por un diamante talla oval cun peso de 4g e unha esmeralda colombiana talla oval de 6.7g, fixados nun hardware de ouro branco."
+    }, 
+    {
+        "nome":"Pendientes emperalda africana", 
+        "prezo":33560, 
+        "imaxe":"pendientesEsmeraldaAfricana.png", 
+        "descricion":"Pendientes compostos cada un deles por un fio de diamantes octogonais unidos mediante un hardware de ouro branco a unha esmeralda africana de talla oval. Peso neto: 6.8g."
+    },
+    {
+        "nome":"Pendientes zafiro", 
+        "prezo":62800, 
+        "imaxe":"pendientesZafiro.png", 
+        "descricion":"Pendientes Art Decó compostos cada un por duas pezas enlazadas mediante ouro branco. A peza de amarre contén un zafiro redondo bordeado por diamantes cun peso de 3.5g e a peza colgante un zafiro talla oval tamén bordeado por diamentes, cun peso de 7.6g."
+    },
+    {
+        "nome":"Pendientes esmeralda e ouro", 
+        "prezo":4690, 
+        "imaxe":"pendientesOroEsmeralda.png", 
+        "descricion":"Pendientes de estilo Renacentista de diesño floral, cada un deles contén unha esmeralda talla oval bordeada con zirconitas sobre un hardware de ouro amarelo. Peso neto: 4.3g."
+    }, 
+    {
+        "nome":"Pendientes rubí Art Decó", 
+        "prezo":13500, 
+        "imaxe":"pendientesRubi.png", 
+        "descricion":"Pendientes Art Decó conformados en ouro branco cun gran rubí central talla esmeralda bordeado con diamantes de máxima pureza. Peso neto: 9.5g."
+    },
+    {
+        "nome":"Pendientes flores zirconita", 
+        "prezo":1100, 
+        "imaxe":"pendientesOroZirconita.png", 
+        "descricion":"Pendientes do ano 1995 emulando dous crisantemos, constitudidos por zirconitas azuis, vermellas e brancas sobre un hardware de ouro amarelo. Peso neto: 14.5g."
+    }, 
+    {
+        "nome":"Pulseira Cartier", 
+        "prezo":45600, 
+        "imaxe":"brazaleteCartier.png", 
+        "descricion":"Pulseira da casa Cartier composto por 7 bandas de ouro amarelo e incrustacións de diamantes de talla brillante. Peso neta: 12.5g."
+    }   
+]
+

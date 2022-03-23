@@ -1,0 +1,14 @@
+.navbar {
+    background-color: rgba(124, 128, 89, 0.116);
+}
+.nav-item {
+    text-align: center;
+}
+.nav-link, .dropdown-item {
+    color: rgb(99, 94, 94);
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: rgb(133, 138, 94) !important;
+}
