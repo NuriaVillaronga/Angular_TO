@@ -11,21 +11,12 @@
         <div class="row">
           <div class="col-4"></div>
           <div class="col-8">
-            <select class="form-select" [(ngModel)]="idiomaSeleccionado" (change)="cambiarIdioma(idiomaSeleccionado,servizo);">
-                  <option value="gal">Galego</option>
-                  <option value="por">Português</option>
+            <select class="form-select" [(ngModel)]="idiomaSeleccionado" (change)="cambiarIdioma(idiomaSeleccionado);">
+                <option value="gal" [selected]="idiomaSeleccionado == 'gal'">Galego</option>
+                <option value="por" [selected]="idiomaSeleccionado == 'por'">Português</option>
             </select>
           </div>
         </div>
       </div>
     </div>
 </nav>
-{{idiomaSeleccionado}}
-
-<app-categorias></app-categorias>
-
-<div class="titular">PRODUTOS OFERTADOS</div>
-<app-ofertas></app-ofertas>
-
-<div class="titular">PRODUTOS MÁIS VENDIDOS</div> 
-<app-mais-vendidos [idiomaNai]="idiomaSeleccionado"></app-mais-vendidos>

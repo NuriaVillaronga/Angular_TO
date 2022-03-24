@@ -10,14 +10,11 @@ import { ProductosService } from '../productos.service';
 export class OfertasComponent implements OnInit {
 
   productosOferta: Producto[][];
-  servizo : ProductosService;
 
-  constructor(public servizoProductos: ProductosService) {
-    this.servizo = servizoProductos;
-  }
+  constructor(public servizoProductos: ProductosService) {}
 
   ngOnInit(): void {
-      this.productosOferta = this.servizo.obterListadoOfertas();
+      this.productosOferta = this.servizoProductos.obterListadoOfertas();
   }
 
 }

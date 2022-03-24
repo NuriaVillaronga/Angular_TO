@@ -13,26 +13,20 @@ export class CabeceiraComponent implements OnInit {
   brand : string;
   placeholder : string;
   boton : string;
-  servizo : ProductosService;
 
-  constructor(public servizoProductos: ProductosService) {
-      this.servizo = servizoProductos;
-      this.idiomaSeleccionado = servizoProductos.idioma;
-      this.brand = servizoProductos.brand;
-      this.placeholder = servizoProductos.placeholder;
-      this.boton = servizoProductos.boton;
-  }
+  constructor(private servizoProductos: ProductosService) {}
 
-  cambiarIdioma(idioma : string, servizoProductos: ProductosService) {
-    this.idiomaSeleccionado = idioma;
-    
-    servizoProductos.servizoIdioma(this.idiomaSeleccionado);
-    this.brand = servizoProductos.brand;
-    this.placeholder = servizoProductos.placeholder;
-    this.boton = servizoProductos.boton; 
+  cambiarIdioma(lang : any) {
+    localStorage.setItem('lang',lang);
+    window.location.reload();
   }
 
   ngOnInit(): void {
+    this.idiomaSeleccionado = localStorage.getItem('lang') || 'gal';
+    this.servizoProductos.servizoIdioma(this.idiomaSeleccionado);
+    this.brand = this.servizoProductos.brand;
+    this.placeholder = this.servizoProductos.placeholder;
+    this.boton = this.servizoProductos.boton;
   }
 
 }

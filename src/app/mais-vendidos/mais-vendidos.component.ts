@@ -9,19 +9,15 @@ import { ProductosService } from '../productos.service';
 
 export class MaisVendidosComponent implements OnInit {
 
-  @Input() idiomaNai : string;
-  idioma : string;
   productos: Producto[][];
-  servizo : ProductosService;
+  idioma : any;
 
-  constructor(servizoProductos :ProductosService) {
-      this.servizo = servizoProductos;
-  }
+  constructor(public servizoProductos :ProductosService) {}
 
   ngOnInit(): void {
-      this.idioma = this.idiomaNai;
-      this.servizo.obterProductos(this.idioma);
-      this.productos = this.servizo.productos;
+      this.idioma = localStorage.getItem('lang');
+      this.servizoProductos.servizoIdioma(this.idioma);
+      this.productos = this.servizoProductos.productos;
   }
 
   mostrarProducto(produto : Producto) {
